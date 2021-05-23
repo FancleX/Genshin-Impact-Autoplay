@@ -19,7 +19,7 @@ A game auxiliary script that allows you to autoplay music in Genshin Impact via 
 ***
 ## Introduction
 ### Format of musical score
-	![Screenshot](https://github.com/FancleX/Genshin-Impact-Autoplay/blob/main/Images/Score_c.png)
+![Screenshot](https://github.com/FancleX/Genshin-Impact-Autoplay/blob/main/Images/Score_c.png)
 
 * The musical score consists of three elements, letter, parentheses, and space. These three charge for different functions. The program will ask you to change these settings at the beginning to gain a better performance of a play.
 
