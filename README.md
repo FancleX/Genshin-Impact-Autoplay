@@ -1,7 +1,7 @@
 # Genshin Impact Autoplay Music
 A game supporting script that allows you to autoplay music in Genshin Impact via game prop called Windsong Lyre. Aim for fun XD.
 
-![Screenshot](Images\WindsongLyre.png)
+![Screenshot](https://github.com/FancleX/Genshin-Impact-Autoplay/blob/main/Images/WindsongLyre.png)
 
 ***
 ## Features
