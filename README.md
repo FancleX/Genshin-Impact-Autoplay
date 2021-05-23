@@ -8,17 +8,17 @@ A game supporting script that allows you to autoplay music in Genshin Impact via
 * The program is compatible with different music, as long as the music file is in the requested format.
 * Settings are able to be adjusted by users. Such as key delay.
 * Not required IDE and enviroment.
----
+***
 ## Requirements
 * Genshin Impact
 * Prop: "Windsong Lyre" which you can get from a pasted activity. If you have, it should be under Gadge. See the below picture.
 
 ![Screenshot](Images\Location.png)
----
+***
 ## Introduction
 ### Format of music score
 * 
----
+***
 ## Getting Started
 1. Click "Code" button to download a zip file.
 2. After upzipping, go to src folder and find "Genshin Impact Autoplay.exe" file. Please ensure songs and the exe file are at the same path.
@@ -35,21 +35,21 @@ A game supporting script that allows you to autoplay music in Genshin Impact via
 ![Screenshot](Images\Setting2.png)
 8. At the last, you are free to press ENTER to start. Once seeing the Start printed, you have three seconds to go back to Genshin Impact and move your hands away from your keyboard. Then, the autoplay starts.
 
----
+***
 ## Snippets show
 Canon:
 
 OP of Lie in April:
 
----
+***
 ## Disclaimer
 * The program just uses for fun will not engage in any commercial purpose and offensive way. 
 * Do not use any music whose score has copyright.
----
+***
 ## Known Issues
 * The game prop has a limited range of only three octaves, so some tones can't be produced.
 * The real music plays faster and slower depending on the chapter, and the program can only simulate resting notes between keystrokes. It can only be used to a certain extent to change the tempo or speed of playing.
----
+***
 ## Reference
 Music score sources:
 * http://www.5you.com/news/466818-2.html
