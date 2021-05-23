@@ -18,8 +18,12 @@ A game auxiliary script that allows you to autoplay music in Genshin Impact via 
 
 ***
 ## Introduction
-### Format of music score
+### Format of musical score
+* ![Screenshot](Example\Score_c.png)
+The musical score consists of three elements, letter, parentheses, and space. These three charge for different functions. The program will ask you to change these settings at the beginning to gain a better performance of a play.
 * 
+![Screenshot](Example\Expaination.png)
+
 ***
 ## Getting Started
 1. Click "Code" button to download a zip file.
@@ -49,13 +53,13 @@ OP of Lie in April:
 ***
 ## Disclaimer
 * The program just uses for fun will not engage in any commercial purpose and offensive way. 
-* Do not use any music whose score has copyright.
+* Do not use any musical score has copyright.
 ***
 ## Known Issues
 * The game prop has a limited range of only three octaves, so some tones can't be produced.
 * The real music plays faster and slower depending on the chapter, and the program can only simulate resting notes between keystrokes. It can only be used to a certain extent to change the tempo or speed of playing.
 ***
 ## Reference
-Music score sources:
+Musical score sources:
 * http://www.5you.com/news/466818-2.html
 * https://www.ququyou.com/yuanshen/113590.html
