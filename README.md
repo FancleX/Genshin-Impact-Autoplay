@@ -18,6 +18,8 @@ A game auxiliary script that allows you to autoplay music in Genshin Impact via 
 
 ***
 ## Introduction
+### Principle
+* Simulates keyboard presses by recognizing musical scores.
 ### Format of musical score
 ![Screenshot](https://github.com/FancleX/Genshin-Impact-Autoplay/blob/main/Images/Score_c.png)
 
@@ -48,9 +50,10 @@ A game auxiliary script that allows you to autoplay music in Genshin Impact via 
 ***
 ## Snippets show
 Canon:
+[![](https://res.cloudinary.com/marcomontalbano/image/upload/v1621880532/video_to_markdown/images/youtube--pgvWKjzbRHw-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://youtu.be/pgvWKjzbRHw "")
 
 OP of Lie in April:
-
+[![](https://res.cloudinary.com/marcomontalbano/image/upload/v1621880532/video_to_markdown/images/youtube--pgvWKjzbRHw-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://youtu.be/pgvWKjzbRHw "")
 ***
 ## Disclaimer
 * The program just uses for fun will not engage in any commercial purpose and offensive way. 
