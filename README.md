@@ -32,19 +32,18 @@ A game auxiliary script that allows you to autoplay music in Genshin Impact via 
 1. Click "Code" button to download a zip file.
 2. After upzipping, go to src folder and find "Genshin Impact Autoplay.exe" file. Please ensure if songs and the exe file are at the same path, you can directly input the file's name to start. Otherwise, you will see a '...' button by the side, which is used to import file from your local documents.
 
-![Screenshot](Example\Explain1.png)
+![Screenshot](https://github.com/FancleX/Genshin-Impact-Autoplay/blob/main/Images/Explain1.png)
 
 3. Run "Genshin Impact", once you enter the game, equip with the prop and back to the main interface.
 4. Press key "Z" to start Windsong Lyre and back to your Desktop. 
 5. Right click the Genshin Impact Autoply.exe file, left click "Run as adminstrator". Wait for few seconds, you will get the UI displayed.
 6. Here provides with two musics. One is Canon, and the other one is Opening of Lie in April. For example, type "Canon.txt" to the entry bar and choose how to start it. If you want run with default setting then click the left button. Please ensure name input valid, otherwise you will receieve a error notification.
 
-	![Screenshot](Example\subwindow.png)
-	![Screenshot](Example\error.png)
+	![Screenshot](https://github.com/FancleX/Genshin-Impact-Autoplay/blob/main/Images/Error.png)
 
 7. The defalt setting is apt and suitable to play Canon, if you expect to play others, please press the right side button to change the settings. Optimized settings for Lie in April OP are shown below, which is still not good. But you should create a better one.
 
-	![Screenshot](Example\setting.png)
+	![Screenshot](https://github.com/FancleX/Genshin-Impact-Autoplay/blob/main/Images/Setting.png)
 
 8. At the last, you are free to press Run to start. Once seeing the status indication starting to print countdown, you have three seconds to go back to Genshin Impact and move your hands away from your keyboard. Then, the autoplay starts.
 
