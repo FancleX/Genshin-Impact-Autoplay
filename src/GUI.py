@@ -3,9 +3,12 @@ from tkinter.constants import HORIZONTAL, X
 import tkinter.messagebox
 import re
 import Autoplay
+from WindsongLyre import *
 import time
 from tkinter import Canvas, filedialog
 from tkinter.ttk import *
+import base64
+import os
 
 class MY_GUI():
     def __init__(self, init_window):
@@ -16,13 +19,13 @@ class MY_GUI():
         self.init_window.geometry('500x300')
         #Figure
         self.init_canvas = tk.Canvas(self.init_window, bg='DarkTurquoise', height=100, width=500)
-        self.image_file = tk.PhotoImage(file='WindsongLyre.gif')
+        self.image_file = tk.PhotoImage(file='icon.gif')
         Canvas.create_image(self.init_canvas, 250, 50, image = self.image_file)
         self.init_canvas.pack(side='top')
         #Frame mainwindow
         self.init_frame = tk.Frame(self.init_window).pack()
-        self.init_frame_l = tk.Frame(self.init_frame).pack(side='left')
-        self.init_frame_r = tk.Frame(self.init_frame).pack(side='right')
+        self.init_frame_l = tk.Frame(self.init_frame).pack(side='top')
+        self.init_frame_r = tk.Frame(self.init_frame).pack(side='bottom')
         #Label mainwindow
         tk.Label(self.init_frame_l, text='Music name: ', bg=None, font=('Arial' ,14)).pack()
         self.name = tk.Entry(self.init_frame_r, show=None, font=('Arial', 14), highlightcolor='red', highlightthickness=1)
@@ -35,7 +38,7 @@ class MY_GUI():
         self.bar = tk.Label(self.init_window, bg='white', width=5)
         self.bar.place(x=138, y=180)
         #Progress bar
-        self.pb = Progressbar(self.init_window, length=170, mode='determinate', orient=HORIZONTAL)
+        self.pb = Progressbar(self.init_window, length=170, mode='determinate', orient=HORIZONTAL, cursor='star')
         self.pb.place(x=190, y=180)
         self.pb['value'] = 0
     
@@ -57,7 +60,7 @@ class MY_GUI():
         #Button
         self.btn_run = tk.Button(self.sub_window, text='Run', command=self.subStart).place(x=240, y=250)
 
-    #Function
+    #Function        
     #Import button
     def getFile(self):
         self.file_path = filedialog.askopenfilename()
@@ -157,10 +160,19 @@ class MY_GUI():
         time.sleep(0.5)
         self.bar.config(text='End')
 
+#Decode GUI picture
+def pic():
+    image = open('icon.gif', 'wb')
+    image.write(base64.b64decode(WindsongLyre_gif))
+    image.close()
+
+#Start GUI
 def GUI_Start():
     window = tk.Tk()
+    pic()
     profile = MY_GUI(window)
     profile.set_window()
+    os.remove('icon.gif')
     window.mainloop()
 
 if __name__ == '__main__':
