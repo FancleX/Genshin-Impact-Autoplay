@@ -49,6 +49,10 @@ A game auxiliary script that allows you to autoplay music in Genshin Impact via 
 
 ***
 ## Snippets show
+Demo:
+
+![GIF]()
+
 Canon:
 
 [![](https://res.cloudinary.com/marcomontalbano/image/upload/v1621880532/video_to_markdown/images/youtube--pgvWKjzbRHw-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://youtu.be/pgvWKjzbRHw "")
