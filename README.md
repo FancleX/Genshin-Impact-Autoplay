@@ -51,7 +51,7 @@ A game auxiliary script that allows you to autoplay music in Genshin Impact via 
 ## Snippets show
 Demo:
 
-![GIF]()
+![GIF](https://github.com/FancleX/Genshin-Impact-Autoplay/blob/main/Example/Demo.gif)
 
 Canon:
 
