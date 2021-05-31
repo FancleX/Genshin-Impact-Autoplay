@@ -5,8 +5,8 @@ A game auxiliary script that allows you to autoplay music in Genshin Impact via 
 
 ***
 ## Features
-* The script has been converted to executable file that is friendly to use.
-* The program is compatible with different music, as long as the music file is in the requested format.
+* The script has been converted to an executable file with an easy UI that is friendly to use.
+* The program is compatible with different music, as long as the music file is in the required format.
 * Settings are able to be adjusted by users. Such as key delay.
 * Not required IDE and enviroment.
 ***
