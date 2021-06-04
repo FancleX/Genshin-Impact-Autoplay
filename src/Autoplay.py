@@ -12,7 +12,7 @@ def autoplay(keys, t_pause, t_single, t_combo):
         return pyautogui.press(keys), time.sleep(t_single)
         
     #Delay of combo keys press
-    elif (len(keys) > 1 and not ' ' in keys):
+    elif (len(keys) > 1 and ' ' not in keys):
         s = []
         for letter in keys:
             s.append(letter)
